@@ -1,0 +1,40 @@
+{
+  "name": "assignment-a2-the-gathering-web-scraper",
+  "version": "1.0.0",
+  "description": "1DV026 - Assignment A2 - The Gathering Web Scraper",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "contributors": [
+    "Kaj Berg <kb223aw@student.lnu.se>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv026/student/kb223aw/assignment-a2-the-gathering-web-scraper.git"
+  },
+  "author": "Kaj Berg <kb223aw@student.lnu.se>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
